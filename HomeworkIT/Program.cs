@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿string[] words = new string[] { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };
+
+for (int n = 0; n < words.Length; n++)
+{
+    Console.WriteLine(words[n]);
+}
