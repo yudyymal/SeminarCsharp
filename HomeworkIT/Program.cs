@@ -18,6 +18,8 @@ for (int i = 0; i < words.Length; i++)
 // Создание нового массива для дальнейшего хранения элементов по условию задачи
 string[] wordsLessFour = new string[count];
 
+// Заполняем новый новый массив строками длиной меньше или равной 3 символам
+
 count = 0;
 for (int i = 0; i < words.Length; i++)
 {
